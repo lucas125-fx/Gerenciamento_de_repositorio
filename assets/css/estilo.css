@@ -1,7 +1,10 @@
 body {
     font-family: "Lato", sans-serif;
-    background-color: dimgray;
+    background-color: antiquewhite;
+    transition: all 1s ease-in-out;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 
 .menu{
     height: 100%;
@@ -58,4 +61,22 @@ img{
 
 .lado{
     float: left;
+}
+.laranja{
+    color: orangered;
+}
+body.modo-noturno{
+    background-color: black;
+    color: white;
+}
+button{
+    margin-left: 20px;
+    background-color: turquoise;
+    color: white;
+}
+button:hover{
+    background-color: black;
+}
+a:hover{
+    color:red;
 }
