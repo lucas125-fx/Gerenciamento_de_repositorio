@@ -1,8 +1,9 @@
 body {
     font-family: "Lato", sans-serif;
-    background-color: antiquewhite;
+    background-color: black;
     transition: all 1s ease-in-out;
     font-family: Arial, Helvetica, sans-serif;
+    color:white;
 }
 
 
@@ -65,9 +66,9 @@ img{
 .laranja{
     color: orangered;
 }
-body.modo-noturno{
-    background-color: black;
-    color: white;
+body.modo-claro{
+    background-color: antiquewhite;
+    color: black;
 }
 button{
     margin-left: 20px;
